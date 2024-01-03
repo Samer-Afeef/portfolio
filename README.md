@@ -1,6 +1,21 @@
-# my_portfolio
+## Let's recreate your Portfolio
 
-portfolio
+Get started now by cloning :)
+
+
+<br>
+
+## 🧑‍💻 portfolio
+Is a multi-platform portfolio for developers available for mobile, windows and web. Includes the following sections:
+- Home
+- About
+- Services
+- Portfolio
+- Contact
+
+## 🔗 Useful links
+
+🌐 Web App: https://samerafeef.com
 
 ## Getting Started
 
