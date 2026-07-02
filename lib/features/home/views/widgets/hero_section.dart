@@ -29,7 +29,7 @@ class HeroSection extends StatelessWidget {
             bottom: 0,
             right: isMobile ? -20 : 0,
             child: Opacity(
-              opacity: isDark ? 0.85 : 0.9,
+              opacity: isDark ? 0.85 : 0.8,
               child: Image.asset(
                 'assets/photos/samer.png',
                 height: isMobile ? size.height * 0.35 : size.height * 0.75,
@@ -99,14 +99,7 @@ class HeroSection extends StatelessWidget {
                     ),
                     AnimatedTextKit(
                       animatedTexts: [
-                        TyperAnimatedText(
-                          ' Senior Mobile Developer',
-                          speed: const Duration(milliseconds: 50),
-                          textStyle: theme.textTheme.titleLarge?.copyWith(
-                            fontFamily: 'Montserrat',
-                            fontWeight: FontWeight.w500,
-                          ),
-                        ),
+
                         TyperAnimatedText(
                           ' Flutter Developer',
                           speed: const Duration(milliseconds: 50),
